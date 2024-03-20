@@ -18,7 +18,7 @@ import java.util.List;
 public class CRUD {
     private final static String URL = "https://gorest.co.in/public/v2/users";
     private final static String HEADER = "Authorization";
-    private final static String TOKEN = "d6df748819f287d9a743077f587c26d8612a060313ff0ca54502601c56a2f202";
+    private final static String TOKEN = "";
     private static final HttpClient httpClient = HttpClient.newHttpClient();
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
